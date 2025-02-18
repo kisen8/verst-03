@@ -19,12 +19,28 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
 }
 .main-title {
   display: none;
+}
+
+/* CONTAINER */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px solid blueviolet;
+}
+
+/* SECTION */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .logo-web {
