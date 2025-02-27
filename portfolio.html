@@ -30,10 +30,10 @@
         <nav class="navi">
           <ul class="navi-list">
             <li class="navi-item">
-              <a class="navi-link current" href="./index.html">Студія</a>
+              <a class="navi-link" href="./index.html">Студія</a>
             </li>
             <li class="navi-item">
-              <a class="navi-link" href="./portfolio.html">Портфоліо</a>
+              <a class="navi-link current" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="navi-item">
               <a class="navi-link" href="">Контакти</a>
@@ -61,89 +61,113 @@
 
       <!-- Filter -->
 
-      <ul class="filter-list">
-        <li class="filter-item">
-          <button class="filter-btn" type="button">Усі</button>
-        </li>
-        <li class="filter-item">
-          <button class="filter-btn" type="button">Веб-сайти</button>
-        </li>
-        <li class="filter-item">
-          <button class="filter-btn" type="button">Додатки</button>
-        </li>
-        <li class="filter-item">
-          <button class="filter-btn" type="button">Дизайн</button>
-        </li>
-        <li class="filter-item">
-          <button class="filter-btn" type="button">Маркетинг</button>
-        </li>
-      </ul>
+      <div class="section">
+        <div class="container">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="filter-btn" type="button">Усі</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn" type="button">Веб-сайти</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn" type="button">Додатки</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn" type="button">Дизайн</button>
+            </li>
+            <li class="filter-item">
+              <button class="filter-btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
 
-      <ul class="card-list">
-        <li class="card-item">
-          <a class="card-link" href="">
-            <img src="./images/tehno.jpg" alt="tehno" />
-            <h2 class="card-title">Технокряк</h2>
-            <p class="card-text">Веб-сайт</p>
-          </a>
-        </li>
-        <li class="card-item">
-          <a class="card-link" href="">
-            <img src="./images/poster-new.jpg" alt="New Orlean" />
-            <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
-            <p class="card-text">Дизайн</p>
-          </a>
-        </li>
-        <li class="card-item">
-          <a class="card-link" href="">
-            <img src="./images/seafood.jpg" alt="Seafood" />
-            <h2 class="card-title">Ресторан Seafood</h2>
-            <p class="card-text">Додаток</p>
-          </a>
-        </li>
-        <li class="card-item">
-          <a class="card-link" href="">
-            <img src="./images/project.jpg" alt="Prime" />
-            <h2 class="card-title">Проєкт Prime</h2>
-            <p class="card-text">Маркетинг</p>
-          </a>
-        </li>
-        <li class="card-item">
-          <a class="card-link" href="">
-            <img src="./images/proj-box.jpg" alt="Boxes" />
-            <h2 class="card-title">Проєкт Boxes</h2>
-            <p class="card-text">Додаток</p>
-          </a>
-        </li>
-        <li class="card-item">
-          <a class="card-link" href="">
-            <img src="./images/inspir.jpg" alt="Inspiration" />
-            <h2 class="card-title">Inspiration has no Borders</h2>
-            <p class="card-text">Веб-сайт</p>
-          </a>
-        </li>
-        <li class="card-item">
-          <a class="card-link" href="">
-            <img src="./images/limit-edit.jpg" alt="Limited Edition" />
-            <h2 class="card-title">Видання Limited Edition</h2>
-            <p class="card-text">Дизайн</p>
-          </a>
-        </li>
-        <li class="card-item">
-          <a class="card-link" href="">
-            <img src="./images/lab.jpg" alt="LAB" />
-            <h2 class="card-title">Проєкт LAB</h2>
-            <p class="card-text">Маркетинг</p>
-          </a>
-        </li>
-        <li class="card-item">
-          <a class="card-link" href="">
-            <img src="./images/growing.jpg" alt="Growing Business" />
-            <h2 class="card-title">Growing Business</h2>
-            <p class="card-text">Додаток</p>
-          </a>
-        </li>
-      </ul>
+          <div class="flex-container">
+            <ul class="card-list">
+              <li class="card-item">
+                <a class="card-link" href="">
+                  <img src="./images/tehno.jpg" alt="tehno" />
+                  <div class="card-content">
+                    <h2 class="card-title">Технокряк</h2>
+                    <p class="card-text">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-item">
+                <a class="card-link" href="">
+                  <img src="./images/poster-new.jpg" alt="New Orlean" />
+                  <div class="card-content">
+                    <h2 class="card-title">Постер New Orlean vs Golden Star</h2>
+                    <p class="card-text">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-item">
+                <a class="card-link" href="">
+                  <img src="./images/seafood.jpg" alt="Seafood" />
+                  <div class="card-content">
+                    <h2 class="card-title">Ресторан Seafood</h2>
+                    <p class="card-text">Додаток</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-item">
+                <a class="card-link" href="">
+                  <img src="./images/project.jpg" alt="Prime" />
+                  <div class="card-content">
+                    <h2 class="card-title">Проєкт Prime</h2>
+                    <p class="card-text">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-item">
+                <a class="card-link" href="">
+                  <img src="./images/proj-box.jpg" alt="Boxes" />
+                  <div class="card-content">
+                    <h2 class="card-title">Проєкт Boxes</h2>
+                    <p class="card-text">Додаток</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-item">
+                <a class="card-link" href="">
+                  <img src="./images/inspir.jpg" alt="Inspiration" />
+                  <div class="card-content">
+                    <h2 class="card-title">Inspiration has no Borders</h2>
+                    <p class="card-text">Веб-сайт</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-item">
+                <a class="card-link" href="">
+                  <img src="./images/limit-edit.jpg" alt="Limited Edition" />
+                  <div class="card-content">
+                    <h2 class="card-title">Видання Limited Edition</h2>
+                    <p class="card-text">Дизайн</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-item">
+                <a class="card-link" href="">
+                  <img src="./images/lab.jpg" alt="LAB" />
+                  <div class="card-content">
+                    <h2 class="card-title">Проєкт LAB</h2>
+                    <p class="card-text">Маркетинг</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-item">
+                <a class="card-link" href="">
+                  <img src="./images/growing.jpg" alt="Growing Business" />
+                  <div class="card-content">
+                    <h2 class="card-title">Growing Business</h2>
+                    <p class="card-text">Додаток</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </main>
 
     <!--footer!!!!!!!!!!!!!!!!!!!!!!!-->
